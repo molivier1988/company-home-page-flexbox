@@ -12,11 +12,20 @@ body {
     margin: 1.125em;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.logo {
+    font-size: 1.125em;
+    font-weight: 900;
 }
 
 nav .navlinks {
@@ -27,9 +36,7 @@ nav .navlinks {
     font-size: 0.875em;
 }
 
-
-
-.logo {
-    font-size: 1.125em;
-    font-weight: 900;
+.navlinks a {
+    text-decoration: none;
+    color: #543310;
 }
