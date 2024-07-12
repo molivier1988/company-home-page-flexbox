@@ -7,4 +7,25 @@
 body {
     background-color: #F8F4E1;
     font-family: Poppins;
+    color: #543310;
+    font-size: 1em;
+    margin: 1.125em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav .navlinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 500px;
+}
+
+.logo {
+    font-weight: 900;
 }
