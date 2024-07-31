@@ -72,6 +72,20 @@ nav .navlinks {
     text-decoration: none;
     color: #543310;
 }
+
+.burgermenu {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .navlinks a {
+        display: none;
+    }
+
+    .burgermenu {
+        display: inline-block;
+    }
+}
 /* ------------------------------------------------------------------ */
 
 /* Site banner */
@@ -89,6 +103,13 @@ nav .navlinks {
 #hero-banner p {
     line-height: 1.5;
     color: #543310;
+}
+
+@media only screen and (max-width: 768px) {
+    #hero-banner {
+        text-align: center;
+        background-image: none;
+    }
 }
 /* ------------------------------------------------------------------ */
 
