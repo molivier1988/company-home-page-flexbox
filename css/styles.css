@@ -1,23 +1,22 @@
 /* Global styles */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: #fff;
     font-family: Poppins;
     color: #543310;
     font-size: 16px;
+}
+
+body {
+    background-color: #fff;    
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 2rem;
 }
-
+/*  */
 h2 {
     font-size: 1.5rem;
 }
@@ -27,48 +26,45 @@ h2,
 h3,
 h4,
 h5 {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 img {
     padding: 24px 0;
 }
+
 section {
     margin: 48px 0;
 }
+/* -----------------------------End of Section-------------------------- */
 
-/* ------------------------------------------------------------------ */
-
-/* Header and navigation */
+/* Header and Navigation */
 header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 24px 24px 0 24px;
+    border: solid 3px red;
 }
 
 .logo {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
-nav {
+.navlinks {
     display: flex;
-    width: 20%;
 }
 
-nav .navlinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    width: 100%;
+.navlinks > li {
     font-size: 0.875rem;
+    list-style-type: none;
+    padding: 0 20px;
+    border: dashed 2px green;
 }
 
-.navlinks a {
+.navlinks > li a {
     text-decoration: none;
     color: #543310;
 }
@@ -78,17 +74,16 @@ nav .navlinks {
 }
 
 @media only screen and (max-width: 768px) {
-    .navlinks a {
+    .navlinks {
         display: none;
     }
-
     .burgermenu {
         display: inline-block;
     }
 }
-/* ------------------------------------------------------------------ */
+/* -----------------------------End of Section-------------------------- */
 
-/* Site banner */
+/* Site Banner */
 #hero-banner {
     display: flex;
     align-items: center;
