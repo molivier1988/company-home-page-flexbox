@@ -110,8 +110,7 @@ header {
 #menu {
     width: 75%;
     margin-left: auto;
-    margin-right: auto;
-    border: solid 3px red; 
+    margin-right: auto; 
 }
 
 #menu .image-container {
@@ -121,15 +120,15 @@ header {
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
-    border: dashed 2px green;
 }
 
 #menu .image-container img {
-    width: 100  %;
+    width: 100%;
     height: auto;
-    border-radius: 5%;
-    display: ;
+    /* border-radius: 10%; */
+    padding: 8px 0;
 }
+
 #menu p {
     color: #543310;
     text-align: center;
