@@ -1,10 +1,13 @@
 # company-home-page-flexbox
 
 ## Objective
-Create a company web page using Flexbox as the main method to layout the page.
+
+Create a company web page using Flexbox to layout elements.
 
 ## Method
+
 ### Styling
+
 Background is a simple off-white colour using hex values. I've only used a
 single font (Poppins) throughout for headings, sub-headings and text. I could
 improve the overall styling by possibly using a different font and font colour
@@ -18,6 +21,7 @@ Margins and paddings are largely by eye and again I've tried to keep
 consistent by setting these globally for each section / element.
 
 ### Layout
+
 I've only used basic Flexbox properties for layout such as spacing for the logo
 and navigation bar and other key elements such as images.
 
@@ -32,7 +36,9 @@ proper hamburger menu but this appears to use javaScript and I'm not at that
 stage yet.
 
 ## Learnings
+
 For me the most difficult part were the design and visual elements:-
+
 - **Colours and fonts**:- Blending elements with background colour.
 - **Margins and paddings**:- Ensuring they add to the visual impact.
 - **Images**:- Sizing (both visual and file size)
