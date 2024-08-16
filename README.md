@@ -29,7 +29,7 @@ flex-wrap and flex-direction were used to organise elements as the page shrank
 and grew. I haven't used flex-shrink / flex-grow and need to revisit these
 to understand how they could be used in this example.
 
-This has largely worked but I couldn't get the menu items to wrap correctly so
+The layout has largely worked but I couldn't get the menu items to wrap correctly so
 ended up using a media query to show an hamburger menu image. I will need to
 revisit and see how I can improve here. Also will need to look into creating a
 proper hamburger menu but this appears to use javaScript and I'm not at that
